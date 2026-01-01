@@ -133,3 +133,5 @@ Ecommerce-Frontend/
 * Fully responsive UI
 * Easy integration with further features (cart, checkout, login)
 
+<img width="1465" height="800" alt="Screenshot 2026-01-01 at 8 49 52 PM" src="https://github.com/user-attachments/assets/7129b3a6-85a4-481a-8031-11fabf7e2a29" />
+
