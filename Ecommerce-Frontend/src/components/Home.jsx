@@ -49,6 +49,8 @@ const Home = ({ selectedCategory }) => {
     ? products.filter((product) => product.category === selectedCategory)
     : products;
 
+    console.log('error: ', isError);
+
   if (isError) {
     return (
       <h2 className="text-center" style={{ padding: "18rem" }}>

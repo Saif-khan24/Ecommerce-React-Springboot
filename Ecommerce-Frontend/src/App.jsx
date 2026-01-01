@@ -39,14 +39,12 @@ function App() {
   return (
     <AppProvider>
       <BrowserRouter>
-        <Navbar onSelectCategory={handleCategorySelect}
-         />
+        <Navbar onSelectCategory={handleCategorySelect} />
         <Routes>
           <Route
             path="/"
             element={
-              <Home addToCart={addToCart} selectedCategory={selectedCategory}
-              />
+              <Home addToCart={addToCart} selectedCategory={selectedCategory} />
             }
           />
           <Route path="/add_product" element={<AddProduct />} />
